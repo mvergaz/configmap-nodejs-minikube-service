@@ -1,0 +1,21 @@
+{
+  "name": "configmap-nodejs-minikube-service",
+  "version": "1.0.0",
+  "description": "Example project demonstrating the use of config-map with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvergaz/configmap-nodejs-minikube-service.git"
+  },
+  "author": "Manuel Vergaz",
+  "license": "ISC",
+  "homepage": "https://github.com/mvergaz/configmap-nodejs-minikube-service/blob/main/README.md",
+  "dependencies": {
+    "express": "*",
+    "dotenv": "*"
+  }
+}
